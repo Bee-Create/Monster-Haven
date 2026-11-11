@@ -13,19 +13,19 @@ After typing in your desired name, click or tap your monster of choice: Dragon, 
 Once you select your monster pet, the game will start.<br>
 <hr>
 Monitor the health, hunger, energy, and happiness bar. You can choose to:<br>
-- Feed your monster
-- Play with your monster
-- Put your monster to sleep
-- Clean your monster
-- Give your monster medicine<br>
+<b>-</b> Feed your monster<br>
+<b>-</b> Play with your monster<br>
+<b>-</b> Put your monster to sleep<br>
+<b>-</b> Clean your monster<br>
+<b>-</b> Give your monster medicine<br>
 <hr>
 Certain actions will raise the xp bar. When the xp bar fills up, your monster levels up.<br>
 <hr>
 You can also:
-- See your monster's mood
-- View the event log to see your pet monster's activity
-- Navigate to the main menu
-- Choose / name a new pet<br>
+<b>-</b> See your monster's mood<br>
+<b>-</b> View the event log to see your pet monster's activity<br>
+<b>-</b> Navigate to the main menu<br>
+<b>-</b> Choose / name a new pet<br>
 <hr>
 Choosing a new pet will replace the previous pet.<br>
 Clsoing the game will save your current pet to come back to.
