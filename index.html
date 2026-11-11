@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Haven</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏰 Monster Haven</h1>
+
+    <button id="instructions-btn" class="help-btn">
+    📖 Instructions
+    </button>
+
+    <div id="instructions-modal" class="modal hidden">
+
+    <div class="modal-content">
+
+        <span id="close-modal" class="close-btn">
+            &times;
+        </span>
+
+        <h2>📖 How To Play</h2>
+
+        <p>
+            To start, type a name into the
+            "Name Your Monster" field.
+        </p>
+
+        <p>
+            Leave it blank and your monster
+            will be named Nugget.
+        </p>
+
+        <p>
+            Select a Dragon, Slime, Ghost,
+            Bat Beast, or Mushroom Buddy
+            to begin your adventure.
+        </p>
+
+        <p>
+            Monitor your Health, Hunger,
+            Energy, Happiness and XP bars.
+        </p>
+
+        <p>
+            Feed, Play, Sleep, Clean,
+            or Give Medicine to your pet.
+        </p>
+
+        <p>
+            Build XP to level up your monster.
+        </p>
+
+        <p>
+            Use the Event Log to see what
+            your monster has been up to.
+        </p>
+
+        <p>
+            Choosing a new pet replaces
+            your current pet.
+        </p>
+
+        <p>
+            Your pet automatically saves
+            when you leave the game.
+        </p>
+
+    </div>
+
+   </div>
+
+    <div id="continue-card" class="card hidden">
+    <h2>Welcome Back!</h2>
+
+    <button id="continue-btn">
+        Continue Adventure
+    </button>
+
+    <button id="home-new-pet-btn">
+        🔄 New Monster
+    </button>
+    </div>
+
+    <div id="monster-selection" class="card">
+
+        <h2>Choose Your Monster</h2>
+
+        <div class="monster-options">
+
+            <button class="monster-btn" data-monster="Dragon">
+                🐉 Dragon
+            </button>
+
+            <button class="monster-btn" data-monster="Slime">
+                🟢 Slime
+            </button>
+
+            <button class="monster-btn" data-monster="Ghost">
+                👻 Ghost
+            </button>
+
+            <button class="monster-btn" data-monster="Bat Beast">
+                🦇 Bat Beast
+            </button>
+
+            <button class="monster-btn" data-monster="Mushroom Buddy">
+                🍄 Mushroom Buddy
+            </button>
+
+        </div>
+
+        <input
+            type="text"
+            id="pet-name"
+            placeholder="Name your monster"
+            maxlength="20"
+        >
+
+    </div>
+
+    <div id="game" class="hidden">
+
+        <div class="card">
+
+            <h2 id="pet-title"></h2>
+
+            <div id="monster-display">
+                🐾
+            </div>
+
+            <p id="mood">
+                Mood: 😊 Happy
+            </p>
+
+            <p>
+                <strong>Level:</strong>
+                <span id="level">1</span>
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Health</h3>
+            <div class="bar">
+                <div id="health-bar" class="fill health"></div>
+            </div>
+
+            <h3>Hunger</h3>
+            <div class="bar">
+                <div id="hunger-bar" class="fill hunger"></div>
+            </div>
+
+            <h3>Energy</h3>
+            <div class="bar">
+                <div id="energy-bar" class="fill energy"></div>
+            </div>
+
+            <h3>Happiness</h3>
+            <div class="bar">
+                <div id="happy-bar" class="fill happy"></div>
+            </div>
+
+            <h3>XP</h3>
+            <div class="bar">
+                <div id="xp-bar" class="fill xp"></div>
+            </div>
+
+        </div>
+
+        <div class="card actions">
+
+            <button id="feed-btn">🍖 Feed</button>
+            <button id="play-btn">🎾 Play</button>
+            <button id="sleep-btn">😴 Sleep</button>
+            <button id="clean-btn">🧼 Clean</button>
+            <button id="medicine-btn">💊 Medicine</button>
+
+            <button id="menu-btn">🏠 Main Menu</button>
+            <button id="new-pet-btn">🔄 New Monster</button>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Event Log</h3>
+
+            <div id="log"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
