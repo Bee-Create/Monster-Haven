@@ -36,9 +36,6 @@ Clsoing the game will save your current pet to come back to.
   <li>JavaScript</li>
   <li>CSS</li>
   <li>HTML</li>
-  <li>Coding Editor / Sandbox</li>
-  <li>Computer</li>
-</UL><br>
-I typed and saved these code files using <a href="https://code.visualstudio.com">Visual Studio Code</a>.<br>
-<h3>Important Information & Reuse Policy</h3>
-This is an originak project inspired by games like gigapet and nanopet. Reuse this code for learning and experimental purposes. Happy coding!
+  <br>
+  Inspired by Giga Pet, Nano Pet, and Tamagotchi.<br>
+  Reuse this code for learning and experimental purposes. <b>Happy coding!</b>
