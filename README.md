@@ -12,7 +12,8 @@ After typing in your desired name, click or tap your monster of choice: Dragon, 
 <hr>
 Once you select your monster pet, the game will start.<br>
 <hr>
-Monitor the health, hunger, energy, and happiness bar. You can choose to:<br>
+Monitor the health, hunger, energy, and happiness bar.<br>
+You can choose to:<br>
 <b>-</b> Feed your monster<br>
 <b>-</b> Play with your monster<br>
 <b>-</b> Put your monster to sleep<br>
@@ -21,7 +22,7 @@ Monitor the health, hunger, energy, and happiness bar. You can choose to:<br>
 <hr>
 Certain actions will raise the xp bar. When the xp bar fills up, your monster levels up.<br>
 <hr>
-You can also:
+You can also:<br>
 <b>-</b> See your monster's mood<br>
 <b>-</b> View the event log to see your pet monster's activity<br>
 <b>-</b> Navigate to the main menu<br>
