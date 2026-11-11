@@ -1,6 +1,6 @@
 <h2>Monster Haven - Pet Monster Browser Game</h2>
 <h3>View Live Page</h3>
-Visit <a href="https://bee-create.github.io/Monster-Haven/" target="_blank" rel="noopener noreferrer">my live page</a> to see the code perform.<br>
+Visit <a href="https://bee-create.github.io/Monster-Haven/">my live page</a> to see the code perform.<br>
 <h3>Purpose of This Project</h3>
 The purpose of this project is to practice HTML, CSS, and vanilla JavaScript by creating an interactive browser game that let's you choose, name, and care for a pet monster. <br>
 <h3>Game Features / Instructions</h3>
